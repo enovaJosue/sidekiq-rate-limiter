@@ -11,6 +11,9 @@ Redis-backed, per-worker rate limits for job processing.
 
 sidekiq-rate-limiter is actively tested against MRI versions 2.7 and 3.1.
 
+sidekiq-rate-limiter is actively tested against MRI versions 2.7 and 3.1.
+sidekiq-rate-limiter is actively tested against MRI versions 2.7 and 3.1.
+
 sidekiq-rate-limiter works by using a custom fetch class, the class responsible
 for pulling work from the queue stored in Redis. Consequently you'll want to be
 careful about using other gems that use a same strategy, [sidekiq-priority](https://github.com/socialpandas/sidekiq-priority)
